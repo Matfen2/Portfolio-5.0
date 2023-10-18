@@ -1,0 +1,216 @@
+<!-- ME -->
+<section id="me">
+    <div class="container-fluid">
+        <div class="navbar navbar-expand-lg">
+            <div class="navbar-brand" [routerLink]="'/show'">MF</div>
+            <button type="button" id="btnBars"><i class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#sideCanvas"></i></button>
+            <div class="navbar-nav">
+                <li class="nav-item"><a href="portfolio.html#about-me" class="nav-link">A propose de moi</a></li>
+                <li class="nav-item"><a href="portfolio.html#my-capacity" class="nav-link">Compétences</a></li>
+                <li class="nav-item"><a href="portfolio.html#myProjets" class="nav-link">Projets</a></li>
+                <li class="nav-item"><a href="portfolio.html#contact" class="nav-link">Contact</a></li>
+            </div>
+        </div>
+        <div class="myProfil">
+            <h1 class="myName">Mathieu FENOUIL</h1>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT ME -->
+<section class="aboutMe" id="about-me">
+    <h1 class="about">A propos de moi</h1>
+    <div class="row" id="myStory">
+        <div class="col-lg-5 col-md-12">
+            <img src="/assets/pict/pictMeOne.jpg" alt="photoMe" class="img-fluid w-100" />
+        </div>
+        <div class="col-lg-7 col-md-12">
+            <div class="meIdentify">
+                <p class="describeMe">
+                    Bonjour je m'appelle Mathieu FENOUIL, je suis un développeur web junior autoditacte. Pendant deux ou trois ans, je travaillais dans le milieu du cinéma (assistant réalisateur, régisseur, ingénieur son, machino, monteur). J'ai acquis de nombreuses compétences tels que l'organisation, l'écoute, le conseil ainsi que des qualités relationnelles importantes. Mais à présent, en parallèle de mon travail, j'ai effectué une reconversion professionnelle dans le développement web, un domaine qui m'intéressait depuis des années.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CAPACITY -->
+<section class="Capacity" id="my-capacity">
+    <h1 class="mySuperPower">Mes compétences/Mon CV</h1>
+    <div class="row" id="myListCapacities">
+        <div class="col-lg-8">
+            <div id="frontEnd" class="carousel slide">
+                <p class="front">Front-End Frameworks :</p>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="/assets/pict/code/htmlLogo.png" alt="HTML" class="img-fluid w-100" id="html"/>
+                            </div>
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/cssLogo.png" alt="CSS" class="img-fluid w-100" id="css"/>
+                            </div>
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/jsLogo.png" alt="JS" class="img-fluid w-100" id="js"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/sassLogo.png" alt="SASS/SCSS" class="img-fluid w-100" id="scss"/>
+                            </div>
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/bootstrapLogo.png" alt="BOOTSTRAP" class="img-fluid w-100" id="bootstrap"/>
+                            </div>
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/reactJsLogo.png" alt="REACTJS" class="img-fluid w-100" id="reactJs"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-12" style="text-align: center">
+                                <img src="/assets/pict/code/angularJsLogo.png" alt="ANGULAR" class="img-fluid w-100" id="angular" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#frontEnd" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#frontEnd" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="backEnd" class="carousel slide" style="margin-top: 120px;">
+                <p class="back">Back-End Frameworks :</p>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/nodeJsLogo.png" alt="NODEJS" class="img-fluid w-100" style="height: 200px; max-width: 220px" />
+                            </div>
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/mongoDbLogo.png" alt="MONGODB" class="img-fluid w-100" style="height: 200px; max-width: 340px" />
+                            </div>
+                            <div class="col-lg-4" style="text-align: center">
+                                <img src="/assets/pict/code/mongooseLogo.png" alt="MONGOOSE" class="img-fluid w-100" style="height: 250px; max-width: 280px" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                 
+        <div class="col-lg-4" id="myCVMF">
+            <div class="myCV">
+                <img src="/assets/pict/CV Mathieu FENOUIL.jpg" alt="MON CV" class="img-fluid mb-4" style="border: 1px solid black; margin-top: 40px;" />
+                <button type="button" id="btnDownload"><a href="/assets/pict/CV Mathieu FENOUIL.jpg" class="text-white" style="font-size: 1.4em; text-decoration: none; font-family: linkStart;" download="CV Mathieu FENOUIL.png">Télécharger mon CV <i class="fa-solid fa-download"></i></a></button>
+            </div>
+        </div>
+    </div>
+</section>       
+
+<!-- MES PROJETS -->
+<section class="idea" id="myProjets">
+    <h1 class="nameProjet">MES PROJETS</h1>
+    <div class="row" id="listProjets">
+        <div class="col-lg-4" [id]="projet.id" *ngFor="let projet of projets">
+            <img [src]="projet.pict" [routerLink]="['/show-projet', projet.id]" class="img-fluid w-100" alt="Starfield" appJobs />
+        </div>
+    </div>
+    <div class="lienProjets">
+        <a [routerLink]="'/projets'" class="lien">VOIR MES AUTRES PROJETS</a>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="myContact" id="contact">
+    <h1 class="titleContact">Contact</h1>
+    <div class="contactModal">
+        <div class="form-area">
+           <form #contact="ngForm" (ngSubmit)="showContact(contact)">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label></label>
+                        <input type="text" class="form-control" name="pseudo" placeholder="Nom d'utilisateur" #pseudo="ngModel" [(ngModel)]="person.pseudo" minlength="10" [ngClass]="{'is.invalid': pseudo.touched && pseudo.invalid}" required />
+                        <div class="warning" *ngIf="pseudo.invalid && (pseudo.dirty || pseudo.touched)">
+                            <div class="alert alert-danger" *ngIf="pseudo.hasError('required')">Pseudo est requis</div>
+                            <div class="alert alert-danger" *ngIf="pseudo.hasError('required')">Pseudo doit contenir moins de 10 moins</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <label></label>
+                        <input type="email" class="form-control" name="email" placeholder="Adresse email" #email="ngModel" [(ngModel)]="person.email" [pattern]="'[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$'" [ngClass]="{'is.invalid': email.touched && email.invalid}" required />
+                        <div class="warning" *ngIf="email.invalid && (email.dirty || email.touched)">
+                            <div class="alert alert-danger" *ngIf="email.hasError('required')">L'adresse email est requise</div>
+                            <div class="alert alert-danger" *ngIf="email.hasError('pattern')">La forme de l'adresse email est incorrecte</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label></label>
+                        <input type="phone" class="form-control" style="color: azure;" name="phone" placeholder="Numéro de téléphone" #phone="ngModel" [(ngModel)]="person.phone" minlength="10" [ngClass]="{'is.invalid': phone.touched && phone.invalid}" required />
+                        <div class="warning" *ngIf="phone.invalid && (phone.dirty || phone.touched)">
+                            <div class="alert alert-danger" *ngIf="phone.hasError('required')">Le numéro de téléphone est requis</div>
+                            <div class="alert alert-danger" *ngIf="phone.hasError('minlength')">Le numéro de télephone doit contenir moins de 10 chiffres</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <label></label>
+                        <input type="text" class="form-control" name="subject" placeholder="Sujet de Conversation" #subject="ngModel" [(ngModel)]="person.subject" minlength="10" [ngClass]="{'is.invalid': subject.touched && subject.invalid}" required />
+                        <div class="warning" *ngIf="subject.invalid && (subject.dirty || subject.touched)">
+                            <div class="alert alert-danger" *ngIf="subject.hasError('required')">Le sujet de conversation est requis</div>
+                            <div class="alert alert-danger" *ngIf="subject.hasError('minlength')">Le sujet de conversation doit contenir moins de 10 lettres</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label></label>
+                <textarea name="message" placeholder="Message" #message="ngModel" [(ngModel)]="person.message" minlength="400" cols="20" rows="7"></textarea>
+                <div class="warningTwo" *ngIf="message.invalid && (message.dirty || message.touched)">
+                    <div class="alert alert-danger" *ngIf="message.hasError('required')">Le message est requis</div>
+                    <div class="alert alert-danger" *ngIf="message.hasError('minlength')">Le message doit contenir moins de 400 lettres</div>
+                </div>
+            </div>
+            <button type="submit" id="btnSend" [disabled]="contact.invalid">ENVOYER</button>
+           </form>
+        </div>
+    </div>
+</section>
+
+<!-- OFFCANVAS -->
+<section class="offcanvas offcanvas-end" id="sideCanvas">
+    <div class="offcanvas-body">
+        <button type="button" id="btnCloseCanvas" data-bs-dismiss="offcanvas">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="containNav">
+            <div class="navbar-nav">
+                <li class="nav-item">
+                    <a href="portofolio.html#about-me" class="nav-link">A propos de moi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portofolio.html#my-capacity" class="nav-link">Compétences/CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portofolio.html#myProjets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portofolio.html#contact" class="nav-link">Contact</a>
+                </li>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
