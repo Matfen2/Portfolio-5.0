@@ -29,8 +29,8 @@ export class ShowProjetComponent implements OnInit {
       langageOne: 'ANGULAR',
       langageTwo: 'TYPESCRIPT',
       langageThree: 'SCSS',
-      hrefGithub: 'https://github.com/Matfen2/HealGamer',
-      hrefSite: 'https://matfen2.github.io/test-second-deploy-github/',
+      hrefGithub: 'https://github.com/Matfen2/Heal-Gamer-2.0',
+      hrefSite: 'https://heal-gamer-2-0.vercel.app/main-page',
     },
     {
       id: 2,
@@ -39,8 +39,8 @@ export class ShowProjetComponent implements OnInit {
       langageOne: 'ANGULAR',
       langageTwo: 'TYPESCRIPT',
       langageThree: 'SCSS',
-      hrefGithub: 'https://github.com/Matfen2/BackWorld',
-      hrefSite: 'https://back-world-2b7ce022df91.herokuapp.com/main-page',
+      hrefGithub: 'https://github.com/Matfen2/Back-World-2.0',
+      hrefSite: 'https://back-world-2-0.vercel.app/main-page',
     },
     {
       id: 3,
@@ -49,8 +49,8 @@ export class ShowProjetComponent implements OnInit {
       langageOne: 'ANGULAR',
       langageTwo: 'TYPESCRIPT',
       langageThree: 'SCSS',
-      hrefGithub: 'https://github.com/Matfen2/Animus',
-      hrefSite: 'https://animus-87d3c39892ed.herokuapp.com/main-page',
+      hrefGithub: 'https://github.com/Matfen2/Animus-2.0',
+      hrefSite: 'https://animus-2-0.vercel.app/main-page',
     },
   ];
 
