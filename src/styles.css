@@ -481,6 +481,47 @@ body {
   opacity: 0.75;
 }
 
+.containProjets {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/pict/acInfinity.jpeg");
+}
+.containProjets .contain .title {
+  padding-top: 5px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: emizen;
+}
+.containProjets .contain .listProjets {
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 0%;
+}
+.containProjets .contain .listProjets .row .col-lg-4 .img-fluid {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  max-width: 520px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  transition: all 0.25ms ease;
+  border: 1px solid transparent;
+}
+.containProjets .contain .reminder {
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+  font-size: 1.6em;
+  font-family: olney;
+  letter-spacing: 2px;
+}
+
 @font-face {
   font-family: emizen;
   src: url(./assets/fonts/emizen.otf);
@@ -526,6 +567,29 @@ body {
   }
   .showProjet .containProjet .img-fluid {
     height: 550px;
+  }
+  .listProjets .row .col-lg-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .listProjets .row .col-lg-4 .img-fluid {
+    max-height: 200px;
+    max-width: 540px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .containProjets .contain .listProjets .row .col-lg-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 .img-fluid {
+    width: 100%;
+    height: 110%;
+    max-height: 200px;
+    max-width: 540px;
+  }
+  .containProjets .contain .reminder {
+    margin: 30px auto;
   }
 }
 @media screen and (max-width: 1037px) {
@@ -693,6 +757,26 @@ body {
   .showProjet .containProjet .listHref .point {
     font-size: 1.2em;
   }
+  .containProjets {
+    height: 124vh;
+  }
+  .containProjets .contain .listProjets {
+    margin: -15px auto;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 .img-fluid {
+    margin-top: 28px;
+    width: 60%;
+    height: 100%;
+    max-height: 240px;
+    max-width: 500px;
+  }
+  .containProjets .contain .reminder {
+    margin: 30px auto;
+  }
 }
 @media screen and (max-width: 603px) {
   .Capacity #myListCapacities .col-lg-8 #frontEnd .carousel-inner .carousel-item .row .col-lg-12 #angular, .Capacity #myListCapacities .col-lg-8 #backEnd .carousel-inner .carousel-item .row .col-lg-12 #angular {
@@ -720,18 +804,6 @@ body {
   .Capacity #myListCapacities .col-lg-8 #frontEnd .front, .Capacity #myListCapacities .col-lg-8 #frontEnd .back, .Capacity #myListCapacities .col-lg-8 #backEnd .front, .Capacity #myListCapacities .col-lg-8 #backEnd .back {
     font-size: 1.6em;
     margin-right: 40px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #starfield .modal-dialog, #wellife .modal-dialog, #eaglePC .modal-dialog, #pixelsGeek .modal-dialog {
-    display: block;
-    margin: auto;
-  }
-  #starfield .modal-dialog .modal-content .modal-footer .langageUse p, #wellife .modal-dialog .modal-content .modal-footer .langageUse p, #eaglePC .modal-dialog .modal-content .modal-footer .langageUse p, #pixelsGeek .modal-dialog .modal-content .modal-footer .langageUse p {
-    font-size: 1.3em;
-  }
-  #starfield .modal-dialog .modal-content .modal-footer .hrefShowSite p, #wellife .modal-dialog .modal-content .modal-footer .hrefShowSite p, #eaglePC .modal-dialog .modal-content .modal-footer .hrefShowSite p, #pixelsGeek .modal-dialog .modal-content .modal-footer .hrefShowSite p {
-    font-size: 1.4em;
   }
 }
 @media screen and (max-width: 480px) {
@@ -798,6 +870,30 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .containProjets {
+    height: 142vh;
+  }
+  .containProjets .contain .title {
+    font-size: 1.8em;
+  }
+  .containProjets .contain .listProjets {
+    margin: -55px auto;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 .img-fluid {
+    margin-top: 68px;
+    width: 60%;
+    height: 100%;
+    max-height: 240px;
+    max-width: 500px;
+  }
+  .containProjets .contain .reminder {
+    margin: 105px auto;
+    max-width: 600px;
+  }
 }
 @media screen and (max-width: 375px) {
   #me .container-fluid .myProfil .myName {
@@ -839,6 +935,31 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .containProjets {
+    height: 145vh;
+  }
+  .containProjets .contain .title {
+    font-size: 1.8em;
+    padding-top: 15px;
+  }
+  .containProjets .contain .listProjets {
+    margin: -75px auto;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 .img-fluid {
+    margin-top: 88px;
+    width: 60%;
+    height: 100%;
+    max-height: 240px;
+    max-width: 500px;
+  }
+  .containProjets .contain .reminder {
+    margin: 145px auto;
+    max-width: 600px;
+  }
 }
 @media screen and (max-width: 320px) {
   #me .container-fluid .myProfil .myName {
@@ -869,5 +990,30 @@ body {
   .showProjet .containProjet .listHref {
     display: flex;
     flex-direction: column;
+  }
+  .containProjets {
+    height: 145vh;
+  }
+  .containProjets .contain .title {
+    font-size: 2.1em;
+    padding-top: 15px;
+  }
+  .containProjets .contain .listProjets {
+    margin: -75px auto;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .containProjets .contain .listProjets .row .col-lg-4 .img-fluid {
+    margin-top: 88px;
+    width: 100%;
+    height: 70%;
+    max-height: 300px;
+    max-width: 320px;
+  }
+  .containProjets .contain .reminder {
+    margin: 145px auto;
+    max-width: 600px;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -1,2 +1,13 @@
-<p>Hello Gamer</p>
-
+<div class="containProjets">
+    <div class="contain">
+        <h2 class="title">MES PROJETS :</h2>
+        <div class="listProjets">
+            <div class="row">
+                <div class="col-lg-4" [id]="projet.id" *ngFor="let projet of projets">
+                    <img [src]="projet.pict" [routerLink]="['/show-projet', projet.id]" class="img-fluid w-100" alt="Starfield" appJobs />
+                </div>
+            </div>
+        </div>
+        <div class="reminder">Ces projets sont des projets à but non lucratifs, ils ont été crées dans le but de montrer mes capacités techniques et créatifs auprès des entreprises ou des personnes qui veulent m'embaucher.</div>
+    </div>
+</div>
