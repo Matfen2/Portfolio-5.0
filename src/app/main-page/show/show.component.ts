@@ -18,7 +18,7 @@ export class ShowComponent {
     },
     {
       id: 3,
-      pict: "/assets/pict/projets/animusLogo.png"
+      pict: "/assets/pict/projets/starfieldLogo.png"
     }
   ]
 

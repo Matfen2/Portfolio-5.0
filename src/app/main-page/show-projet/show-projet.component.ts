@@ -44,13 +44,13 @@ export class ShowProjetComponent implements OnInit {
     },
     {
       id: 3,
-      name: 'ANIMUS',
-      mainPict: '/assets/pict/projets/animusSite.png',
+      name: 'STARFIELD',
+      mainPict: '/assets/pict/projets/starfieldSite.png',
       langageOne: 'ANGULAR',
       langageTwo: 'TYPESCRIPT',
       langageThree: 'SCSS',
-      hrefGithub: 'https://github.com/Matfen2/Animus-2.0',
-      hrefSite: 'https://animus-2-0.vercel.app/main-page',
+      hrefGithub: 'https://github.com/Matfen2/Starfield2.0',
+      hrefSite: 'https://starfield2-0.vercel.app/main-page',
     },
   ];
 
