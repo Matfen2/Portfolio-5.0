@@ -32,6 +32,5 @@ export class ShowComponent {
 
   showContact(test: NgForm) {
     console.log(test.value);
-    
   }
 }
